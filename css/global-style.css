@@ -1,0 +1,60 @@
+:root {
+    --black: #000;
+    --white: #fff;
+    --white2: #EEEFF1;
+    --white3: #F3F4F5;
+    --primery: #1B1B1D;
+    --primery-hover: #4e4e4e;
+    --grey: #64646A;
+}
+body {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    color: var(--primery);
+}
+.container {
+    margin: 0 auto;
+    max-width: 1270px;
+    padding: 0px 15px;
+}
+.btn {
+    background: var(--primery);
+    box-shadow: 0px 30px 60px rgba(163, 168, 179, 0.15);
+    border-radius: 63px;
+    padding: clamp(0.75rem, 0.687rem + 0.32vw, 0.938rem) clamp(0.938rem, 0.411rem + 2.63vw, 2.5rem);
+/*  15 12  40 15*/
+
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: var(--white);
+    transition: all .3s;
+}
+.btn:hover {
+    background: var(--primery-hover);
+    transition: all .3s;
+}
+.title {
+    font-weight: 800;
+    font-size: clamp(2.063rem, 1.41rem + 3.26vw, 4rem);
+/*    64 33*/
+    line-height: clamp(2.813rem, 2.286rem + 2.63vw, 4.375rem);
+/*    70 40*/
+    text-align: center;
+}
+.text {
+    font-weight: 400;
+    font-size: clamp(1rem, 0.832rem + 0.84vw, 1.5rem);
+/*    24 16*/
+    line-height: clamp(1.563rem, 1.352rem + 1.05vw, 2.188rem);
+/*    35 25*/
+    color: var(--grey);
+}
+.smaill-title {
+    font-weight: 800;
+    font-size: clamp(1.438rem, 1.08rem + 1.79vw, 2.5rem);
+/*  40 23*/
+    line-height: clamp(1.875rem, 1.454rem + 2.11vw, 3.125rem);
+/*  50 30*/
+}
